@@ -1,0 +1,121 @@
+/* main.css
+*/
+
+/* ====== Global Styles ====== */
+
+body {
+	font-family: "Trebuchet MS", sans-serif;
+	background: #FFA500;
+	margin: 0;
+	padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+	margin: 1ex 1em;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+tr, td {
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+#outerTable {
+	margin: 0 auto;
+	width: 770px;
+	background: url(../images/main_banner.png) no-repeat;
+}
+
+td#contactButton {
+	height: 50px;
+}
+
+#contactButton div {
+	height: 30px;
+	margin: 0 0 0 670px;
+	padding: 0;
+}
+
+/*===== Main Menu =====*/
+
+td#mainMenu {
+	height: 70px;
+	vertical-align: bottom;
+}
+
+#mainMenu div {
+	height: 30px;
+	margin-left: 325px;
+	padding: 0;
+}
+
+#mainMenu img {
+	margin: 0 5px;
+	border: none;
+}
+
+/*===== Main Content (Left) =====*/
+
+td#contentLeft {
+	background-color: #F9F953;
+	width: 505px;
+}
+
+div#mainContent {
+	padding: 0 15px;
+	margin: 0;
+	border: none;
+}
+
+#mainContent p {
+	font-family: Georgia, serif;
+	font-size: .9em;
+	line-height: 1.4em;
+	margin-left: 0;
+	color: #000000;
+}
+
+#mainContent h1 h2 h3 h4 {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+#mainContent h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #FF0000;
+	margin: 0 0 .4em 0;
+}
+
+/*=====Side Bar (Content Right)=====*/
+
+td#contentRight {
+	background-color: #F9F953;
+	width: 265px;
+}
+
+div#sideBar {
+	padding: 10px;
+	border-left: 1px solid #000000;
+}
+
+#contentRight p {
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: .8em;
+	line-height: 1.2em;
+	margin-left: 0;
+	color: #FF0000;
+}
+
+#contentRight h2 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #ff0000;
+	margin: 0 0 .5em 0;
+}
